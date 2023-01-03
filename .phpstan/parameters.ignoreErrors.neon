@@ -1,0 +1,6 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to an undefined method Robo\\\\Collection\\\\CollectionBuilder\\|Robo\\\\Task\\\\Composer\\\\Validate\\:\\:args\\(\\)\\.$#"
+			count: 1
+			path: ../Commands/marvin_composer/ComposerCommandsBase.php
